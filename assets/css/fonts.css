@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Conv_Aeonik-Regular';
+	src: url('../fonts/Aeonik-Regular.eot');
+	src: local('☺'), url('../fonts/Aeonik-Regular.woff') format('woff'), url('../fonts/Aeonik-Regular.ttf') format('truetype'), url('../fonts/Aeonik-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Aeonik-Medium';
+	src: url('../fonts/Aeonik-Medium.eot');
+	src: local('☺'), url('../fonts/Aeonik-Medium.woff') format('woff'), url('../fonts/Aeonik-Medium.ttf') format('truetype'), url('../fonts/Aeonik-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Aeonik-Bold';
+	src: url('../fonts/Aeonik-Bold.eot');
+	src: local('☺'), url('../fonts/Aeonik-Bold.woff') format('woff'), url('../fonts/Aeonik-Bold.ttf') format('truetype'), url('../fonts/Aeonik-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

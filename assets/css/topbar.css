@@ -1,0 +1,149 @@
+.topBarOffer {
+    font-family: 'Aeonik', sans-serif !important;
+    font-size: 16px;
+    text-align: center;
+    background-color: #2e2a2A;
+    padding: 10px 10px;
+    color: #fff;
+    position: relative;
+}
+.talk-to-us-btn {
+    background-color: #252dc9;
+    color: #fff;
+    padding: 5px 16px !important;
+    font-size: 14px;
+    line-height: 19px;
+}
+.talk-to-us-btn:hover {
+    color: #fff;
+    background-color: #1f29ec;
+}
+.offer-img-md{
+    margin-right: 10px;
+}
+.offer-img-sm img, .offer-img-md{
+    height: 30px;
+}
+.offer-img-sm {
+    display: none;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.btn-close2 {
+    padding: 4px 10px !important;
+}
+.topBarRespBtns{
+    display: none;
+}
+.closeAlt {
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    font-size: 22px;
+    display: none;
+}
+.close-topbar-btn{
+    cursor: pointer;
+}
+
+.topFlashSaleVisible .ocHead {
+    padding: 0 0px 10px 0px !important;
+}
+.topFlashSaleVisible .ocPagewrap {
+    padding: 140px 0px 115px 0px;
+}
+.topFlashSaleVisible .ocMenu {
+    top: 140px;
+}
+.topFlashSaleVisible .renew-btn{
+    display: none;
+}
+
+/* .topFlashSaleVisible .plan-header-nav-wrap{
+    top: 130px;
+} */
+/* .topFlashSaleVisible .pricingNewWrap {
+    padding-top: 300px;
+} */
+.topFlashSaleVisible .pricingNewWrap.pricingSticky .plan-header-nav-wrap {
+    top: 482px;
+}
+.topFlashSaleVisible .pricingNewWrap.pricingSticky {
+    padding-top: 285px;
+}
+
+@media (max-width: 767px) {  
+    .offer-img-sm img, .offer-img-md {
+        height: 44px;
+    }
+    .topFlashSaleVisible .ocPagewrap {
+        padding: 215px 0px 115px 0px;
+    }
+    .topFlashSaleVisible .ocMenu {
+        top: 0;
+    }
+    .topFlashSaleVisible .topBarOffer .txt-cnt{
+        /* display: block; */
+        margin-top: 10px;
+        padding-left: 70px;
+    }
+    .topFlashSaleVisible .renew-btn{
+        display: inline-block;
+    }
+    .topFlashSaleVisible .body-renew-btn {
+        display: none;
+    }
+    .topFlashSaleVisible .topBarRespBtns{
+        display: block;
+        margin-top: 10px;
+    }
+    .topFlashSaleVisible .banner {
+        padding: 35% 0px 50px 0px;
+    }
+    .topBarOffer .offer-img-md{
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    } 
+    .closeAlt {
+        right: 15px;
+        top: 40px;
+        font-size: 32px;
+    }
+    .topBarOffer{
+        font-size: 12px;
+        line-height: 8px;
+    }
+    .talk-to-us-btn{
+        padding: 6px 12px !important;
+    }
+    .topBarRespBtns a{
+        margin: 0px 5px;
+    }
+}
+
+.topBarOffer.yellow{
+    background-color: #f6e252;
+    color: #000;
+}
+.topBarOffer.yellow .talk-to-us-btn {
+    background-color: #000;
+    border: solid 0.5px #000;
+    color: #fff;
+}
+.topBarOffer.yellow .talk-to-us-btn:hover {
+    background-color: #f6e252;
+    color: #000;
+}
+.topBarOffer.yellow .contact-popup-trigger {
+    background-color: #f6e252; 
+    border: solid 0.5px #000;
+    color: #000;
+}
+.topBarOffer.yellow .contact-popup-trigger:hover {
+    background-color: #000; 
+    color: #fff;
+}
+.topBarOffer.yellow .closeAlt a{
+    color: #000;
+}
