@@ -68,7 +68,7 @@ body h1 {
 }
 .become-a-partner-btn:hover {
   color: #fff;
-  background-color: #0056b3 !important;
+  background-color: black !important;
 }
 
 /* --------Banner---- */
@@ -415,8 +415,8 @@ body h1 {
   height: 216px;
 }
 .universal-btn {
-  padding-top: 90px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 /*--------------------------------------- section-Affiliate partner------------------------------ */
@@ -523,7 +523,7 @@ nav ul li a {
   line-height: 50px;
 }
 .category span {
-  line-height: 36px;
+  line-height: 30px;
 }
 .full-category {
   padding-top: 10px;
@@ -533,6 +533,7 @@ nav ul li a {
 }
 .category li img {
   padding-right: 14px;
+  width: 40px;
 }
 .category li .sales {
   padding-right: 14px;
@@ -847,6 +848,9 @@ th {
   transform: none !important;
 }
 .main-data-name {
+  padding: 10px 22px;
+}
+.main-data-name1 {
   padding: 10px 22px;
 }
 .main-data-title {
@@ -1204,7 +1208,7 @@ select {
   margin-top: 31px;
 }
 .form-btn:hover{
- background-color:  rgb(0, 86, 179);
+ background-color:  black;
   cursor: pointer;
   border: none;
   outline: none;
@@ -1223,7 +1227,7 @@ select {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: black;
   outline: none;
 }
 .main-form-group {
@@ -1404,7 +1408,7 @@ footer {
   .become-a-partner-banner-btn {
     display: flex;
     justify-content: flex-start;
-    padding: 17px 23px !important;
+    padding: 17px 15px !important;
   }
   .headWrap img {
     width: 135px;
@@ -1750,7 +1754,7 @@ footer {
     height: 50px;
   }
   .table-data {
-    font-size: 12px;
+    font-size: 18px;
   }
   .main-req-box p {
     margin: 15px auto !important;
@@ -2052,9 +2056,13 @@ footer {
     letter-spacing: 0.56px;
   }
   .partner-form-btn {
-    padding: 17px 52px !important;
+    padding: 14px 40px !important;
   }
   .main-data-name {
+    padding: 20px 19px;
+    font-size: 15px;
+  }
+  .main-data-name1 {
     padding: 20px 19px;
     font-size: 15px;
   }
@@ -2066,10 +2074,10 @@ footer {
     margin-bottom: 0;
   }
   .table-data img {
-    padding-bottom: 4px;
+    padding-bottom: 7px;
     padding-right: 2px;
     padding-top: 0px;
-    width: 7px;
+    width: 10px;
   }
 
   .req-title h2 {
@@ -2253,6 +2261,9 @@ footer {
     width: 160px;
   }
   .main-data-name{
-    width: 160px;
+    width: 120px;
+  }
+  .main-data-name1{
+    width: 70px !important;
   }
 }
