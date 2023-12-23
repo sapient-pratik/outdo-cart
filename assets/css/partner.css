@@ -166,7 +166,6 @@ body h1 {
   overflow: hidden;
 }
 
-
 /* -------counter section------ */
 
 .main-title h2 {
@@ -205,7 +204,7 @@ body h1 {
 .circle-4 h2 {
   font-size: 54px;
   font-weight: 700;
-  color: #3EBE71;
+  color: #3ebe71;
 }
 .circle-3 p {
   font-size: 40px;
@@ -519,11 +518,11 @@ nav ul li a {
   display: flex;
   color: #000;
   font-family: Aeonik;
-  font-size: 20px;
-  line-height: 50px;
+  font-size: 18px;
+  padding-bottom: 12px;
 }
 .category span {
-  line-height: 30px;
+  line-height: 25px;
 }
 .full-category {
   padding-top: 10px;
@@ -537,16 +536,16 @@ nav ul li a {
 }
 .category li .sales {
   padding-right: 14px;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 .category li .sales1 {
   padding-right: 14px;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 .Potential-heading h1 {
   color: #000;
   font-family: Aeonik;
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 500;
 }
 
@@ -600,7 +599,7 @@ table {
 .sale-Potential-heading h1 {
   color: #000;
   font-family: Aeonik;
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 500;
 }
 
@@ -610,7 +609,7 @@ table {
 .service-Potential-heading h1 {
   color: #000;
   font-family: Aeonik;
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 500;
 }
 .service-Potential-heading span {
@@ -668,7 +667,6 @@ table {
   font-family: Aeonik;
   font-size: 17px;
   font-weight: 500;
-  padding-right: 95px;
 }
 .sale-table2-top {
   background-color: #d8effc;
@@ -676,7 +674,6 @@ table {
   font-family: Aeonik;
   font-size: 17px;
   font-weight: 500;
-  padding-right: 95px;
 }
 
 .table-heading {
@@ -685,20 +682,20 @@ table {
 .table-heading ul .commission {
   color: #139f97;
   font-family: Aeonik;
-  font-size: 11px;
+  font-size: 14px;
   font-style: italic;
   font-weight: 500;
 }
 .table-heading ul .commission-heading {
   color: #000;
   font-family: Aeonik;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 500;
 }
 .table-heading ul .commission-2 {
   color: #166fbe;
   font-family: Aeonik;
-  font-size: 11px;
+  font-size: 14px;
   font-style: italic;
   font-weight: 500;
 }
@@ -715,9 +712,13 @@ table {
 
 .column1 {
   text-align: right;
-  padding-right: 40px;
+  padding-right: 60px;
   padding-left: 160px;
 }
+.affiliate-basic {
+  padding-left: 75px;
+}
+
 td {
   border: 1px solid #8e8e8e;
   padding: 8px;
@@ -733,7 +734,7 @@ th {
   font-weight: 500;
   color: #000;
   font-family: Aeonik;
-  font-size: 17px;
+  font-size: 18px;
 }
 .table-data {
   font-weight: 700;
@@ -749,6 +750,7 @@ th {
   font-style: normal;
   font-weight: 500;
   line-height: 64px;
+  padding-top: 44px;
 }
 .partner-title span {
   color: #414141;
@@ -760,16 +762,20 @@ th {
   line-height: 32px;
   transform: rotate(-7.266deg);
 }
+.partner-title img {
+  height: 50px;
+  width: 200px;
+}
+.main-paretner-title img {
+  margin-top: -20px;
+  margin-right: -27px !important;
+  margin-left: 536px;
+}
 .main-paretner-title h2 {
   width: 820px;
 }
-.main-paretner-title img {
-  margin-top: 33px;
-  margin-right: -22px;
-}
-.partner-title img {
-  height: 110px;
-}
+
+
 .main-paretner-title {
   background-color: #fffefc;
   padding: 0px;
@@ -848,13 +854,63 @@ th {
   transform: none !important;
 }
 .main-data-name {
-  padding: 10px 22px;
+  padding: 10px 10px;
+  width: 190px;
 }
 .main-data-name1 {
-  padding: 10px 22px;
+  padding: 10px 15px;
+}
+.affiliate1-basic {
+  padding-right: 85px;
+  padding-left: 40px;
+}
+.affiliate1-referrals {
+  padding-left: 0px;
+}
+.affiliate1-starter {
+  padding-right: 53px;
+}
+.affiliate1-standard {
+  padding-left: 35px;
+  padding-right: 40px;
+}
+.sales-basic {
+  padding-left: 145px;
+}
+.sales1-referrals {
+  padding-left: 0px;
+}
+.sales1-basic {
+  padding-right: 85px;
+  padding-left: 40px;
+}
+.sales1-starter {
+  padding-right: 53px;
+}
+.sales1-standard {
+  padding-left: 35px;
+  padding-right: 40px;
+}
+.service-basic{
+  padding-left: 150px;
+}
+.service1-referrals{
+  padding-left: 0px;
+}
+.service1-basic{
+  padding-right: 85px;
+  padding-left: 40px;
+}
+.service1-starter{
+  padding-right: 53px;
+}
+.service1-standard{
+  padding-left: 35px;
+  padding-right: 40px;
 }
 .main-data-title {
-  padding: 13px 0px 13px 22px;
+  padding: 13px 17px 13px 10px;
+  width: 260px;
 }
 .main-data ul {
   padding: 0 0 0 0 !important;
@@ -1009,7 +1065,6 @@ th {
 }
 .bg-form {
   background-color: #fff9ef;
-  
 }
 .become-a-partner img {
   width: 264px;
@@ -1066,7 +1121,6 @@ th {
   height: 55px;
 }
 
-
 /* .main-form {
   
   border-radius: 40px 40px 0px 0px;
@@ -1077,15 +1131,16 @@ th {
   border-image: linear-gradient(to right, #000, #fff);
 
   
-} */.main-form {
-background: linear-gradient(white, #FFF9EF) padding-box,
-linear-gradient(to bottom, rgb(74, 74, 74), rgb(255, 255, 255));
-border-radius: 40px 40px 0 0 ;
-border-bottom: none !important;
-border: 0.4px solid transparent;
-border-top: 0.4px solid rgb(74, 74, 74) !important;
-flex: 1;
-bottom: 80px;
+} */
+.main-form {
+  background: linear-gradient(white, #fff9ef) padding-box,
+    linear-gradient(to bottom, rgb(74, 74, 74), rgb(255, 255, 255));
+  border-radius: 40px 40px 0 0;
+  border-bottom: none !important;
+  border: 0.4px solid transparent;
+  border-top: 0.4px solid rgb(74, 74, 74) !important;
+  flex: 1;
+  bottom: 80px;
   position: relative;
   margin-right: 50px;
 }
@@ -1122,6 +1177,7 @@ label {
   display: block;
   font-weight: 500;
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 /* 
@@ -1166,9 +1222,10 @@ input[type="email"],
 input[type="tel"],
 select {
   width: 90%;
-  padding: 5px;
-  border: 0.4px solid #717171;
+  padding: 8px;
+  border: 0.4px solid #c1c1c1;
   border-radius: 2px;
+  font-weight: 400;
 }
 
 /* Custom styling for the select field */
@@ -1207,8 +1264,8 @@ select {
   cursor: pointer;
   margin-top: 31px;
 }
-.form-btn:hover{
- background-color:  black;
+.form-btn:hover {
+  background-color: black;
   cursor: pointer;
   border: none;
   outline: none;
@@ -1234,7 +1291,7 @@ button:hover {
   display: grid;
   grid-template-columns: auto auto;
   grid-column-gap: 0px;
-  padding: 53px 70px;
+  padding: 40px 70px 22px 70px;
 }
 
 /* --------Footer------- */
@@ -1402,13 +1459,14 @@ footer {
     outline: none;
     border-radius: 90px;
   }
-  .become-a-partner-btn:hover{
+  .become-a-partner-btn:hover {
     background-color: #0056b3;
   }
   .become-a-partner-banner-btn {
     display: flex;
     justify-content: flex-start;
-    padding: 17px 15px !important;
+    padding: 17px 32px !important;
+    font-size: 18px;
   }
   .headWrap img {
     width: 135px;
@@ -1425,7 +1483,7 @@ footer {
   .swiper-slide img {
     width: 20px;
   }
-  .swiper-slide{
+  .swiper-slide {
     width: 260px !important;
   }
   .heros p {
@@ -1574,8 +1632,8 @@ footer {
     padding-top: 20px;
   }
   .universal-btn {
-    padding-top: 25px;
-    padding-bottom: 35px;
+    padding-top: 42px;
+    padding-bottom: 44px;
   }
   .main-bg-form {
     padding-right: 0;
@@ -1748,8 +1806,8 @@ footer {
     font-size: 30px;
   }
   .bg-form-content img {
-    width: 325px;
-    padding-left: 45px;
+    width: 340px;
+    padding-left: 75px;
     padding-top: 10px;
     height: 50px;
   }
@@ -1804,7 +1862,7 @@ footer {
   }
   .category li {
     font-size: 14px;
-    line-height: 28px;
+    line-height: 21px;
   }
   .category span {
     line-height: 21px;
@@ -1860,7 +1918,7 @@ footer {
   .section1 {
     padding-bottom: 10px;
   }
-  
+
   .section2 {
     display: none;
   }
@@ -1873,15 +1931,15 @@ footer {
   .section3 {
     padding-bottom: 10px;
   }
-   .select-1 .current{
+  .select-1 .current {
     border-radius: 30px;
   }
-  .select-2 .current{
+  .select-2 .current {
     border-radius: 30px;
   }
-  .select-3 .current{
+  .select-3 .current {
     border-radius: 30px;
-  } 
+  }
   .active .main-btn.select-1 {
     background: #0261cf;
     color: white;
@@ -1992,12 +2050,13 @@ footer {
   }
   .partner-title img {
     box-sizing: border-box;
-    width: 300px;
+    width: 104px;
   }
   .partner-title img {
-    height: 60px;
-    margin-top: 40px;
-    margin-bottom: 25px;
+    height: 29px;
+    margin-top: -40px !important;
+    margin-left: 235px;
+    
   }
   .main-partner-category nav .buttons {
     border: 0.5px solid #cdcdcd;
@@ -2005,6 +2064,7 @@ footer {
     height: 72px;
     padding-left: 5px;
     padding-right: 5px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
   }
   .sale-table-top {
     font-size: 14px;
@@ -2018,7 +2078,7 @@ footer {
   }
   .table2-top {
     font-size: 10px;
-    padding-left: 8px;
+   
     padding-right: 47px;
   }
   .main-partner-category {
@@ -2059,16 +2119,16 @@ footer {
     padding: 14px 40px !important;
   }
   .main-data-name {
-    padding: 20px 19px;
+    padding: 8px 12px;
     font-size: 15px;
   }
   .main-data-name1 {
-    padding: 20px 19px;
+    padding: 8px 12px;
     font-size: 15px;
   }
   .main-paretner-title h2 {
     max-width: 820px;
-    padding-top: 80px;
+    padding-top: 44px;
     width: auto;
     font-size: 26px;
     margin-bottom: 0;
@@ -2105,7 +2165,7 @@ footer {
     font-weight: 700;
     line-height: 51px;
   }
-  .main-partner-category{
+  .main-partner-category {
     padding-top: 0px;
   }
   .main-circle span {
@@ -2123,7 +2183,7 @@ footer {
     font-size: 22px;
   }
   .form-btn {
-    padding: 17px 35px !important;
+    padding: 17px 32px !important;
   }
   .main-partner-section {
     margin-top: 50px;
@@ -2162,11 +2222,11 @@ footer {
   input[type="tel"],
   select {
     width: 100%;
-    padding: 5px;
-    border: 0.4px solid #717171;
+    padding: 8px;
+    border: 0.4px solid #c1c1c1;
     border-radius: 2px;
   }
-  .form-group{
+  .form-group {
     margin-bottom: 10px;
   }
   .main-form-group {
@@ -2224,7 +2284,7 @@ footer {
   }
   .table2-top {
     font-size: 14px;
-    padding-left: 8px;
+
     padding-right: 0px;
   }
   .main-heading-content span {
@@ -2246,7 +2306,7 @@ footer {
     content: url("../img/Filled-Linked-in.png");
     transform: scale(1.1);
   }
-  
+
   .select-arrow select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -2254,16 +2314,68 @@ footer {
     padding-right: 30px; /* Space for the arrow */
     background-color: #ffffff;
   }
-  td{
+  td {
     padding: 0px;
   }
-  .main-data-title{
+  .main-data-title {
     width: 160px;
   }
-  .main-data-name{
+  .main-data-name {
     width: 120px;
   }
-  .main-data-name1{
+  .main-data-name1 {
     width: 70px !important;
+  }
+  .category .span-m  img{
+    padding-right: 14px;
+    margin-bottom: 17px;
+    padding-bottom: 0px;
+  }
+  .affiliate1-basic{
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+  .affiliate1-starter{
+    padding-right: 0px;
+    padding-left: 45px;
+  }
+  .affiliate1-standard{
+    padding-left: 20px;
+    padding-right: 15px;
+  }
+  .table-heading ul .commission-heading {
+    color: #000;
+    font-family: Aeonik;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .table-heading ul .commission-heading-2{
+    color: #000;
+    font-family: Aeonik;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .sales-basic{
+    padding-left: 130px;
+  }
+  .sales1-basic{
+    padding-left: 25px;
+  }
+  .sales1-starter{
+    padding-left: 50px;
+  }
+  .sales1-standard{
+    padding-left: 33px;
+    padding-right: 6px;
+  }
+  .service-basic{
+    padding-left: 145px;
+  }
+  .service1-basic{
+    padding-left: 0px;
+  }
+  .service1-standard{
+    padding-left: 0px;
+    width: 85px;
   }
 }
