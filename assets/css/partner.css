@@ -2079,7 +2079,7 @@ footer {
   .table2-top {
     font-size: 10px;
    
-    padding-right: 47px;
+    padding-right: 33px;
   }
   .main-partner-category {
     margin: 0;
@@ -2285,7 +2285,7 @@ footer {
   .table2-top {
     font-size: 14px;
 
-    padding-right: 0px;
+    padding-right: 33px;
   }
   .main-heading-content span {
     font-size: 14px;
@@ -2381,4 +2381,9 @@ footer {
     padding-left: 0px;
     width: 85px;
   }
+  .service1-basic{
+    padding-left: 0px;
+    padding-right: 45px;
+  }
+
 }
