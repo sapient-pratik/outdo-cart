@@ -2318,7 +2318,10 @@ footer {
     padding: 0px;
   }
   .main-data-title {
-    width: 160px;
+    width: 145px;
+  }
+  .main-data-title{
+    padding: 13px 0px 13px 10px;
   }
   .main-data-name {
     width: 120px;
