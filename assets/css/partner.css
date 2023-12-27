@@ -62,9 +62,11 @@ body h1 {
   font-weight: normal;
   line-height: 19px;
   border: none;
-  outline: none;
   border-radius: 90px;
   cursor: pointer;
+}
+button:focus {
+  outline:0;
 }
 .become-a-partner-btn:hover {
   color: #fff;
@@ -118,7 +120,6 @@ body h1 {
   font-weight: normal;
   line-height: 19px;
   border: none;
-  outline: none;
   border-radius: 90px;
   cursor: pointer;
 }
@@ -1096,7 +1097,6 @@ th {
   font-weight: normal;
   line-height: 19px;
   border: none;
-  outline: none;
   border-radius: 90px;
 }
 
@@ -1258,7 +1258,6 @@ select {
   font-weight: normal;
   line-height: 19px;
   border: none;
-  outline: none;
   border-radius: 90px;
   cursor: pointer;
   margin-top: 31px;
@@ -1267,7 +1266,6 @@ select {
   background-color: black;
   cursor: pointer;
   border: none;
-  outline: none;
 }
 .partner-form-btn {
   background-color: #000;
@@ -1277,14 +1275,12 @@ select {
   font-weight: normal;
   line-height: 19px;
   border: none;
-  outline: none;
   border-radius: 90px;
   cursor: pointer;
 }
 
 button:hover {
   background-color: black;
-  outline: none;
 }
 .main-form-group {
   display: grid;
@@ -1455,11 +1451,7 @@ footer {
     font-weight: normal;
     line-height: 19px;
     border: none;
-    outline: none;
     border-radius: 90px;
-  }
-  .become-a-partner-btn:hover {
-    background-color: #0056b3;
   }
   .become-a-partner-banner-btn {
     display: flex;
