@@ -2317,6 +2317,11 @@ footer {
   }
   .category .span-m img {
     padding-right: 14px;
+    margin-bottom: 18px;
+    padding-bottom: 0px;
+  }
+  .category .span-m .service12{
+    padding-right: 14px;
     margin-bottom: 37px;
     padding-bottom: 0px;
   }
