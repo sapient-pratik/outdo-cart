@@ -1254,7 +1254,7 @@ select {
   background-color: #000;
   color: #fff;
   padding: 25px 70px !important;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   line-height: 19px;
   border: none;
@@ -1271,7 +1271,7 @@ select {
   background-color: #000;
   color: #fff;
   padding: 19px 82px !important;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   line-height: 19px;
   border: none;
@@ -2104,7 +2104,7 @@ footer {
     letter-spacing: 0.56px;
   }
   .partner-form-btn {
-    padding: 14px 40px !important;
+    padding: 12px 34px !important;
   }
   .main-data-name {
     padding: 8px 12px;
@@ -2171,7 +2171,7 @@ footer {
     font-size: 22px;
   }
   .form-btn {
-    padding: 17px 32px !important;
+    padding: 12px 34px !important;
   }
   .main-partner-section {
     margin-top: 50px;
@@ -2317,7 +2317,7 @@ footer {
   }
   .category .span-m img {
     padding-right: 14px;
-    margin-bottom: 17px;
+    margin-bottom: 37px;
     padding-bottom: 0px;
   }
   .affiliate1-basic {
@@ -2374,3 +2374,4 @@ footer {
   }
  
 }
+
